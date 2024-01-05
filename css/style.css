@@ -18,10 +18,13 @@ section {
     align-items: center;
 }
 
-section h2 
-{
+
+.winter-bg {
+    background: radial-gradient(#e6e6e6, #dbdbdb);
+}
+{ section
     font-size: 8rem;
-    color:#fff;
+    color: #fff
     text-transform: uppercase;
 }
 section.set {
