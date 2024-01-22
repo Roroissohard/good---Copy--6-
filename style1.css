@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,800&family=Stoke:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(background-3104413_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.winterheader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: radial-gradient(#c5f1ff, #006e8a);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgb(110, 36, 67);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 35px;
+    color: #ffffff;
+    text-decoration: none;
+    font: weight: 700;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content: '';
+    position:absolute;
+    top: 100%;
+    width: 0;
+    left: 0;
+    height: 2px;
+    background: #ffffff;
+    transition: .3s;
+}
+
+.navbar a:hover::before{
+
+    width: 100%;
+}
+.fallheader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgb(110, 36, 67);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.falllogo {
+    font-size: 35px;
+    color: #ffffff;
+    text-decoration: none;
+    font: weight: 700;
+}
+
+.fallnavbar a {
+    position: relative;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.fallnavbar a::before {
+    content: '';
+    position:absolute;
+    top: 100%;
+    width: 0;
+    left: 0;
+    height: 2px;
+    background: #ffffff;
+    transition: .3s;
+}
+
+.fallnavbar a:hover::before{
+
+    width: 100%;
+}
